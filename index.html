@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .parallax {
+            background-image: url(https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            height: 90vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 1cm;
+
+        }
+
+        #header {
+            text-align: center;
+            background-color: blue;
+            margin: 0;
+            height: 1.5cm;
+            background-attachment: fixed;
+            background-size: cover;
+            scroll-behavior: smooth;
+            
+            
+        }
+
+        #END {
+            text-align: center;
+            background-color: rgb(33, 14, 119);
+        }
+
+        #form1 {
+            color: yellow;
+            text-align: center;
+            height: 1.2cm;
+            background-color: black;
+        }
+
+        #form2 {
+            text-align: center;
+            margin-top: 1cm;
+        }
+        #footer {
+            text-align: center;
+            background-color: black;
+            color: yellow;
+            height: 3cm;
+        }
+        #get {
+            height: 20px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>ELECTRIC IS THE FUTURE </h1>
+        
+    </div>
+    <div class="parallax">
+        <div id="get">
+            <h2 style="color: yellow; text-align: center ; background-color: black;">TAKE OUT THIS SIMPLE SURVERY TO GIVE US SOME SIMPLE INFORMATION ABOUT YOUR
+                CURRENT RIDE AND GET A CHANCE TO TEST DRIVE IN A TESLA CAR.</h2>
+
+        </div>
+        <div id="form1">
+            <h1 style="margin: 40px 0" c>Welcome to TESLA</h1>
+
+
+
+        </div>
+        <div id="form2">
+            <form>
+                <label style="color: yellow;">NAME</label>
+                <input type="text" name="name" placeholder="Enter your name" required minlength="3" />
+                <br>
+                <label style="color: yellow;" for="selector">Current Vehicle </label>
+                <select id="selector">
+                    <option value="SUV">SUV</option>
+                    <option value="HATCHBACK">HATCHBACK</option>
+                    <option value="SEDAN">SEDAN</option>
+                    <option value="OTHERS">OTHERS</option>
+                </select><br>
+                <label style="color: yellow;">Mobile No</label>
+                <input type="number" number="number" placeholder="mobile no" required maxlength="10" /><br>
+                <label style="color: yellow;">Email id</label>
+                <input type="email" placeholder="enter email id" /><br>
+                <label style="color: yellow;">Password</label>
+                <input type="password" name="password" placeholder="Confirm Password" class="textbox" /><br />
+                <label style="color: yellow;">Favourite TESLA</label><br>
+                <br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label style="color: yellow;" for="vehicle1"> ROADSTER</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label style="color: yellow;" for="vehicle2"> MODEL S</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label style="color: yellow;" for="vehicle3"> MODEL 3</label><br>
+
+
+
+
+                </select>
+                <input type="submit" value="SIGN UP" name="signUp" class="signUp"><br><br>
+
+            </form>
+
+        </div>
+
+
+    </div>
+    <div id="END">
+        <h2 style="color: yellow;">Fill this survey, and answer some easy questions to get a chance to ride and experience the best electric
+            cars in the world from, Tesla Motors.</h2>
+
+    </div>
+    <div id="footer">
+        <h4>All rights reserved by Shashank</h4>
+        <h5>TESLA MOTORS</h5>
+        <h6>GEEKSTER</h6>
+
+    </div>
+
+</body>
+
+</html>
